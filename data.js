@@ -1,0 +1,379 @@
+window.COURSE = {
+  "name": "GARSEF 2026-2027",
+  "lastUpdated": "Nov 10, 2026, 8:12 PM CT",
+  "staff": "Elizabeth Phillips, Dhwani Nathan, Yue Wu, Aarav Dhawan, Deven Kancherla",
+  "meetingRoom": "Mrs. Phillips' room, HSC room 115",
+  "fairWebsite": "https://austinscience.org/",
+  "nextUp": {
+    "label": "Next up",
+    "title": "Files and Forms hard deadline",
+    "date": "Wed Nov 18",
+    "body": "Second milestone (Files and Forms) is a hard deadline on Wed Nov 18. The next club meeting is the same day, after school in Mrs. Phillips' room, HSC room 115."
+  },
+  "announcementsCaption": "Newest first, copied word for word from the course.",
+  "announcements": [
+    {
+      "title": "Files & Forms Reminder",
+      "date": "Nov 9, 2026, 10:52 AM CT",
+      "author": "Yue Wu",
+      "body": [
+        "Hi GARSEF,",
+        "Hope y'all had a great weekend! Just a reminder to get those Files and Forms in, hopefully by the end of this week. It's going to be a very busy week for classes, but just don't forget about the second milestone (DUE 11/18 HARD DEADLINE)! Me and Dhwani are always available via e-mail, so please don't be afraid to reach out with any questions you may have."
+      ],
+      "url": "https://eanes.instructure.com/courses/11651/discussion_topics/12338"
+    },
+    {
+      "title": "New information posted in modules + Yearbook photo poll",
+      "date": "Nov 4, 2026, 11:02 PM CT",
+      "author": "Dhwani Nathan",
+      "body": [
+        "Hey y'all! Just a heads up that all the information for GARSEF files and forms, as well as other information, is posted to the modules section of canvas. I have also posted the meeting slides from today if you were unable to make it.",
+        "Also friendly reminder that we have our club photos tomorrow at 9:20am in the ngc gym. Please try to respond to the picture day poll/quiz that I just posted so that we have a rough idea of who is going to be there.",
+        "Thank you! - Dhwani"
+      ],
+      "url": "https://eanes.instructure.com/courses/11651/discussion_topics/12043"
+    },
+    {
+      "title": "GARSEF Meetings and Yearbook Pictures!",
+      "date": "Nov 3, 2026, 10:10 PM CT",
+      "author": "Dhwani Nathan",
+      "body": [
+        "Hi everyone!! Just a quick reminder that we will be having a meeting TOMORROW after school in Mrs. Phillips' room (health science building). We will be discussing all the files and forms, so please try to attend and let me know if you will be unable to make it.",
+        "We will also be having our yearbook photo for GARSEF THURSDAY AT 9:20 AM IN THE NGC GYM."
+      ],
+      "url": "https://eanes.instructure.com/courses/11651/discussion_topics/11941"
+    },
+    {
+      "title": "GARSEF Registration Extended!!",
+      "date": "Oct 20, 2026, 9:32 PM CT",
+      "author": "Dhwani Nathan",
+      "body": [
+        "Hi everyone! I just got an email from the GARSEF Fair lead that the deadline to register has been extended until Oct 21st @5:00pm. If you or someone you know is still interested in participating in GARSEF and have not signed up and completed the first 2 milestones yet, PLEASE COMPLETE IT ASAP."
+      ],
+      "url": "https://eanes.instructure.com/courses/11651/discussion_topics/10796"
+    },
+    {
+      "title": "GARSEF Meeting Cancelled",
+      "date": "Oct 19, 2026, 12:54 PM CT",
+      "author": "Dhwani Nathan",
+      "body": [
+        "Hi everyone!! We will be cancelling the GARSEF meeting this Wednesday due to some scheduling conflicts. So sorry, our next meeting will be on November 4th after school in Mrs. Phillips room."
+      ],
+      "url": "https://eanes.instructure.com/courses/11651/discussion_topics/10666"
+    },
+    {
+      "title": "GARSEF Team Projects",
+      "date": "Oct 12, 2026, 9:11 PM CT",
+      "author": "Dhwani Nathan",
+      "body": [
+        "Hi everyone! If you are planning to work in a team and are having problems with registration, please email/contact me with the name of your partner(s) and the project name you are currently registered under. If the registration is not fixed by 4:15pm tomorrow, contact me immediately and we can figure it out.",
+        "REMEMBER: GARSEF REGISTRATION IS DUE 5:00PM, WEDNESDAY, OCT 14TH. - Dhwani"
+      ],
+      "url": "https://eanes.instructure.com/courses/11651/discussion_topics/10117"
+    },
+    {
+      "title": "GARSEF Registration + Meeting tomorrow",
+      "date": "Oct 6, 2026, 8:07 PM CT",
+      "author": "Dhwani Nathan",
+      "body": [
+        "Hi everyone! Reminder that we have a meeting tomorrow in the HSC (room 115) after school. We will mainly be discussing GARSEF registration and making sure everyone is set on that. If possible, please try to register tonight, so that we can tackle any issues that may arise at the meeting tomorrow (it should only take about 5 minutes). If you have tried to register before today and have been unable to, try again tonight because we updated the Westlake HS registration this morning.",
+        "Thank you so much, we can't wait to see you all tomorrow!"
+      ],
+      "url": "https://eanes.instructure.com/courses/11651/discussion_topics/9768"
+    },
+    {
+      "title": "GARSEF Meeting This Wednesday (10/7)",
+      "date": "Oct 5, 2026, 10:52 AM CT",
+      "author": "Dhwani Nathan",
+      "body": [
+        "Hi everyone! Quick reminder - we have a GARSEF meeting this Wednesday (10/7) in Mrs. Phillips' room (room 115 in the HSC). Please bring any questions you have about registration or GARSEF in general, looking forward to seeing you all there! - Dhwani"
+      ],
+      "url": "https://eanes.instructure.com/courses/11651/discussion_topics/9650"
+    },
+    {
+      "title": "1st GARSEF Meeting (9/2/26)",
+      "date": "Sep 2, 2026, 9:11 PM CT",
+      "author": "Dhwani Nathan",
+      "body": [
+        "Hi everyone! Thank you so much to everyone who was able to make it to our first GARSEF meeting for this year!! If you were unable to make it, the slides for the meeting have been posted under the \"Meeting Slides\" module. Quick note for those of you at the meeting - the future meeting dates on the presented slides were wrong, below are the adjusted ones (they can also be found on the uploaded meeting slides for today):",
+        "10/7, 10/21, 11/4, 11/18, 12/2, 12/16, 1/6, 2/3, 2/10",
+        "Please let me know if you have any questions or concerns! - Dhwani"
+      ],
+      "url": "https://eanes.instructure.com/courses/11651/discussion_topics/7633"
+    }
+  ],
+  "modulesCaption": "Canvas file links need an Eanes ISD login; Google, YouTube and fair links open for anyone.",
+  "modules": [
+    {
+      "name": "Meeting Slides",
+      "items": [
+        {
+          "title": "GARSEF Meeting Slides 9/2/26",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/178995",
+          "site": "Canvas file"
+        },
+        {
+          "title": "GARSEF Meeting Slides 10/7/26",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/199412",
+          "site": "Canvas file"
+        },
+        {
+          "title": "GARSEF Meeting Slides 11/4/26",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214231",
+          "site": "Canvas file"
+        }
+      ]
+    },
+    {
+      "name": "General Fair Information",
+      "items": [
+        {
+          "title": "JS Handbook",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214252",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Project Guidelines and Time Requirements",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214268",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Category List",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214269",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Schedule",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214270",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Student Checklist and Schedule",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214271",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Student STEM Wizard Guide",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214272",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Ideas for Science Fair Projects at Home",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214273",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Science Fair Quick Start Guide (Student)",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214274",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Virtual Project Board Template",
+          "href": "https://docs.google.com/presentation/d/1Uxs8ST3OibUl2Vr64uuRFTTsGlGG6iCcXhRdYAldeow/edit?usp=sharing",
+          "site": "Google Slides"
+        },
+        {
+          "title": "GARSEF Website",
+          "href": "https://austinscience.org/",
+          "site": "austinscience.org"
+        }
+      ]
+    },
+    {
+      "name": "GARSEF/ISEF Rules",
+      "items": [
+        {
+          "title": "ISEF Rulebook",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214277",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Rule Modifications for 2026-27",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214278",
+          "site": "Canvas file"
+        },
+        {
+          "title": "SR Rules Quick Reference",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214279",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Guidelines for AI Use",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214280",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Rules Companion Guide",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214281",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Generative AI Use Table",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214282",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Display Safety Rules",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214283",
+          "site": "Canvas file"
+        },
+        {
+          "title": "ISEF Rules and Guidelines",
+          "href": "https://www.societyforscience.org/isef/international-rules/rules-and-guidelines/",
+          "site": "societyforscience.org"
+        }
+      ]
+    },
+    {
+      "name": "Files and Forms",
+      "items": [
+        {
+          "title": "Hazardous Chemicals Guide - Lab Chemicals",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214285",
+          "site": "Canvas file"
+        },
+        {
+          "title": "ISEF Forms Needing Signatures",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214286",
+          "site": "Canvas file"
+        },
+        {
+          "title": "SR Forms with Guiding Arrows",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214287",
+          "site": "Canvas file"
+        },
+        {
+          "title": "SW Form Signatures",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214288",
+          "site": "Canvas file"
+        },
+        {
+          "title": "BSL1 Checklist",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214289",
+          "site": "Canvas file"
+        },
+        {
+          "title": "BSL2 Checklist",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214290",
+          "site": "Canvas file"
+        },
+        {
+          "title": "ISEF Forms",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214291",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Abstract",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214292",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Mixed Team Participation Form",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214293",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Student Research Plan Template (sample, make a copy)",
+          "href": "https://docs.google.com/document/d/1GMfzjXElvamZvFihUd7fpQzjEM4qGwbSQw93KNGnOvs/edit?usp=sharing",
+          "site": "Google Docs"
+        },
+        {
+          "title": "Completing Paperless Files and Forms in STEM Wizard",
+          "href": "https://scribehow.com/embed-preview/Student__Completing_Paperless_Files_and_Forms_in_STEM_Wizard_Copy__5eqhciooSXiOzgfTaMHbAQ?as=slides&size=flexible",
+          "site": "Scribe"
+        }
+      ]
+    },
+    {
+      "name": "Fair Day Information",
+      "items": [
+        {
+          "title": "Day of Fair FAQs",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214297",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Fair Week Expectations",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214298",
+          "site": "Canvas file"
+        },
+        {
+          "title": "Judge Criteria Sheet",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214299",
+          "site": "Canvas file"
+        },
+        {
+          "title": "How to Prepare for Judging",
+          "href": "https://eanes.instructure.com/courses/11651/modules/items/214300",
+          "site": "Canvas file"
+        },
+        {
+          "title": "GARSEF: How To Prepare For Judging (video)",
+          "href": "https://www.youtube.com/watch?v=pLFEv1WFOe4",
+          "site": "YouTube"
+        }
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "name": "Yearbook Picture Poll",
+      "due": "Nov 5, 2026, 8:00 AM CT",
+      "points": "100"
+    }
+  ],
+  "assignmentsNote": "The Files and Forms milestone is tracked in GARSEF's STEM Wizard system rather than as a Canvas assignment.",
+  "meetingsCaption": "After school in Mrs. Phillips' room, HSC room 115.",
+  "meetings": [
+    {
+      "date": "Wed Sep 2",
+      "status": "Held",
+      "notes": "First meeting, slides in Modules"
+    },
+    {
+      "date": "Wed Oct 7",
+      "status": "Held",
+      "notes": "Registration help, slides in Modules"
+    },
+    {
+      "date": "Wed Oct 21",
+      "status": "Cancelled",
+      "notes": "Scheduling conflicts"
+    },
+    {
+      "date": "Wed Nov 4",
+      "status": "Held",
+      "notes": "Files and forms, slides in Modules"
+    },
+    {
+      "date": "Wed Nov 18",
+      "status": "Next",
+      "notes": "Files and Forms hard deadline"
+    },
+    {
+      "date": "Wed Dec 2",
+      "status": "Upcoming",
+      "notes": ""
+    },
+    {
+      "date": "Wed Dec 16",
+      "status": "Upcoming",
+      "notes": ""
+    },
+    {
+      "date": "Wed Jan 6",
+      "status": "Upcoming",
+      "notes": ""
+    },
+    {
+      "date": "Wed Feb 3",
+      "status": "Upcoming",
+      "notes": ""
+    },
+    {
+      "date": "Wed Feb 10",
+      "status": "Upcoming",
+      "notes": ""
+    }
+  ]
+};

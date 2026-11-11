@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GARSEF 2026-2027 Course Updates</title>
+  <meta name="description" content="Read-only course updates for the GARSEF 2026-2027 club, including announcements, modules, assignments, and meeting dates.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="app">
+    <header class="topbar" aria-label="Mobile menu">
+      <button class="menu-btn" id="menu-btn" type="button" aria-label="Open menu" aria-controls="sidebar" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      </button>
+      <div class="topbar-title">GARSEF 2026-2027</div>
+    </header>
+    <div class="overlay" id="overlay" hidden></div>
+    <aside class="sidebar" id="sidebar" aria-label="Course menu">
+      <div class="brand">
+        <div class="monogram" aria-hidden="true">G</div>
+        <div class="brand-text">
+          <div class="brand-name">GARSEF</div>
+          <p class="brand-sub">2026-2027 club course</p>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Course sections">
+        <a href="#home" data-nav="home">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11.5 12 5l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z"></path></svg>
+          Home
+        </a>
+        <a href="#announcements" data-nav="announcements">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h14M5 12h14M5 18h9"></path></svg>
+          Announcements
+          <span class="count" id="count-announcements"></span>
+        </a>
+        <a href="#modules" data-nav="modules">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 12 4l8 3.5v9L12 20l-8-3.5zM12 4v16M12 12l8-3.5M12 12 4 8.5"></path></svg>
+          Modules
+          <span class="count" id="count-modules"></span>
+        </a>
+        <a href="#assignments" data-nav="assignments">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4h8v3H8zM6 7h12v13H6zM9 12h6M9 16h4"></path></svg>
+          Assignments
+          <span class="count" id="count-assignments"></span>
+        </a>
+        <a href="#meetings" data-nav="meetings">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"></rect><path d="M8 3v4M16 3v4M4 10h16"></path></svg>
+          Meetings
+        </a>
+      </nav>
+      <p class="sidebar-note">A read-only mirror for mentors and families. Course file links require an Eanes ISD login.</p>
+    </aside>
+    <div class="main-col">
+      <header class="banner" aria-label="Course title">
+        <h1 id="course-title">GARSEF 2026-2027</h1>
+        <p class="updated">Last updated <span id="last-updated"></span></p>
+      </header>
+      <main id="main" class="content">
+        <section id="view-home" class="view" data-view="home" hidden></section>
+        <section id="view-announcements" class="view" data-view="announcements" hidden></section>
+        <section id="view-modules" class="view" data-view="modules" hidden></section>
+        <section id="view-assignments" class="view" data-view="assignments" hidden></section>
+        <section id="view-meetings" class="view" data-view="meetings" hidden></section>
+      </main>
+      <footer class="site-footer" aria-label="Site credit">Read-only mirror of the GARSEF club course, maintained by Vittesh Taneja.</footer>
+    </div>
+  </div>
+  <script src="data.js"></script>
+  <script>
+    (function () {
+      "use strict";
+
+      var course = window.COURSE;
+      if (!course) {
+        document.getElementById("view-home").hidden = false;
+        document.getElementById("view-home").textContent = "Course data failed to load.";
+        return;
+      }
+
+      function esc(value) {
+        return String(value)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+
+      function initials(name) {
+        return name
+          .split(/\s+/)
+          .filter(Boolean)
+          .map(function (part) { return part.charAt(0); })
+          .join("")
+          .slice(0, 2)
+          .toUpperCase();
+      }
+
+      function toneFor(name) {
+        var sum = 0;
+        for (var i = 0; i < name.length; i++) sum += name.charCodeAt(i);
+        return "tone-" + ((sum % 4) + 1);
+      }
+
+      function isCourseFile(item) {
+        return item.site === "Canvas file";
+      }
+
+      var iconFile =
+        '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"></path><path d="M14 3v5h5"></path></svg>';
+      var iconLink =
+        '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.07 0l2.12-2.12a5 5 0 0 0-7.07-7.07L11 5"></path><path d="M14 11a5 5 0 0 0-7.07 0L4.81 13.12a5 5 0 0 0 7.07 7.07L13 19"></path></svg>';
+      var chevron =
+        '<svg class="chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg>';
+
+      document.getElementById("course-title").textContent = course.name;
+      document.getElementById("last-updated").textContent = course.lastUpdated;
+      document.getElementById("count-announcements").textContent = course.announcements.length;
+      document.getElementById("count-modules").textContent = course.modules.length;
+      document.getElementById("count-assignments").textContent = course.assignments.length;
+
+      var staffHtml = course.staff
+        .split(",")
+        .map(function (name) {
+          return "<li>" + esc(name.trim()) + "</li>";
+        })
+        .join("");
+
+      var next = course.nextUp;
+      document.getElementById("view-home").innerHTML =
+        '<article class="next-up">' +
+          '<div class="eyebrow">' + esc(next.label) + "</div>" +
+          '<div class="next-title">' + esc(next.title) + "</div>" +
+          '<div class="next-date">' + esc(next.date) + "</div>" +
+          "<p>" + esc(next.body) + "</p>" +
+        "</article>" +
+        '<section class="card">' +
+          "<h2>Course</h2>" +
+          '<dl class="facts">' +
+            "<div class=\"fact\"><dt>Course</dt><dd>" + esc(course.name) + "</dd></div>" +
+            "<div class=\"fact\"><dt>Course staff</dt><dd><ul class=\"staff-list\">" + staffHtml + "</ul></dd></div>" +
+            "<div class=\"fact\"><dt>Meeting room</dt><dd>" + esc(course.meetingRoom) + "</dd></div>" +
+            '<div class="fact"><dt>Fair website</dt><dd><a href="' + esc(course.fairWebsite) + '" rel="noopener noreferrer">' + esc(course.fairWebsite) + "</a></dd></div>" +
+          "</dl>" +
+        "</section>";
+
+      var annHtml = course.announcements
+        .map(function (post, index) {
+          var body = post.body
+            .map(function (para) { return "<p>" + esc(para) + "</p>"; })
+            .join("");
+          return (
+            "<details class=\"announcement\"" + (index === 0 ? " open" : "") + ">" +
+              "<summary>" +
+                '<span class="avatar ' + toneFor(post.author) + '" aria-hidden="true">' + esc(initials(post.author)) + "</span>" +
+                '<span class="ann-meta">' +
+                  '<h3 class="ann-title">' + esc(post.title) + "</h3>" +
+                  '<p class="ann-byline">' + esc(post.author) + " · " + esc(post.date) + "</p>" +
+                "</span>" +
+                chevron +
+              "</summary>" +
+              '<div class="ann-body">' +
+                body +
+                '<p class="original"><a href="' + esc(post.url) + '" rel="noopener noreferrer">Original post</a></p>' +
+              "</div>" +
+            "</details>"
+          );
+        })
+        .join("");
+
+      document.getElementById("view-announcements").innerHTML =
+        "<h2>Announcements</h2>" +
+        '<p class="caption">' + esc(course.announcementsCaption) + "</p>" +
+        '<div class="announcements">' + annHtml + "</div>";
+
+      var modulesHtml = course.modules
+        .map(function (mod, index) {
+          var items = mod.items
+            .map(function (item) {
+              var file = isCourseFile(item);
+              var meta = file ? "Eanes login required" : item.site;
+              return (
+                "<li>" +
+                  '<a href="' + esc(item.href) + '" rel="noopener noreferrer">' +
+                    '<span class="item-icon">' + (file ? iconFile : iconLink) + "</span>" +
+                    '<span class="item-text">' +
+                      '<span class="item-title">' + esc(item.title) + "</span>" +
+                      '<span class="item-meta">' + esc(meta) + "</span>" +
+                    "</span>" +
+                  "</a>" +
+                "</li>"
+              );
+            })
+            .join("");
+          return (
+            "<details class=\"module\"" + (index === 0 ? " open" : "") + ">" +
+              "<summary>" +
+                esc(mod.name) +
+                '<span class="module-count">' + mod.items.length + (mod.items.length === 1 ? " item" : " items") + "</span>" +
+                chevron +
+              "</summary>" +
+              '<ul class="item-list">' + items + "</ul>" +
+            "</details>"
+          );
+        })
+        .join("");
+
+      document.getElementById("view-modules").innerHTML =
+        "<h2>Modules</h2>" +
+        '<p class="caption">' + esc(course.modulesCaption) + "</p>" +
+        '<div class="modules">' + modulesHtml + "</div>";
+
+      var rows = course.assignments
+        .map(function (row) {
+          return (
+            "<tr>" +
+              "<td>" + esc(row.name) + "</td>" +
+              "<td>" + esc(row.due) + "</td>" +
+              "<td>" + esc(row.points) + "</td>" +
+            "</tr>"
+          );
+        })
+        .join("");
+
+      document.getElementById("view-assignments").innerHTML =
+        "<h2>Assignments</h2>" +
+        '<div class="table-wrap">' +
+          "<table>" +
+            "<thead><tr><th>Assignment</th><th>Due</th><th>Points</th></tr></thead>" +
+            "<tbody>" + rows + "</tbody>" +
+          "</table>" +
+        "</div>" +
+        '<p class="note">' + esc(course.assignmentsNote) + "</p>";
+
+      var meetingsHtml = course.meetings
+        .map(function (meet) {
+          var slug = meet.status.toLowerCase();
+          var notes = meet.notes
+            ? '<span class="meet-notes">' + esc(meet.notes) + "</span>"
+            : "";
+          return (
+            '<li class="is-' + esc(slug) + '">' +
+              '<span class="dot" aria-hidden="true"></span>' +
+              '<div class="meet-date">' + esc(meet.date) + "</div>" +
+              '<div class="meet-body">' +
+                '<span class="pill pill-' + esc(slug) + '">' + esc(meet.status) + "</span>" +
+                notes +
+              "</div>" +
+            "</li>"
+          );
+        })
+        .join("");
+
+      document.getElementById("view-meetings").innerHTML =
+        "<h2>Meetings</h2>" +
+        '<p class="caption">' + esc(course.meetingsCaption) + "</p>" +
+        '<ol class="timeline">' + meetingsHtml + "</ol>";
+
+      var views = ["home", "announcements", "modules", "assignments", "meetings"];
+
+      function currentView() {
+        var hash = (location.hash || "#home").replace(/^#/, "");
+        return views.indexOf(hash) === -1 ? "home" : hash;
+      }
+
+      function showView(name) {
+        views.forEach(function (view) {
+          var section = document.getElementById("view-" + view);
+          if (section) section.hidden = view !== name;
+        });
+        document.querySelectorAll("[data-nav]").forEach(function (link) {
+          if (link.getAttribute("data-nav") === name) {
+            link.setAttribute("aria-current", "page");
+          } else {
+            link.removeAttribute("aria-current");
+          }
+        });
+        closeMenu();
+        var heading = document.querySelector("#view-" + name + " h2, #view-" + name + " .next-title");
+        if (heading) heading.setAttribute("tabindex", "-1");
+      }
+
+      function closeMenu() {
+        document.getElementById("sidebar").classList.remove("open");
+        document.getElementById("overlay").hidden = true;
+        var btn = document.getElementById("menu-btn");
+        btn.setAttribute("aria-expanded", "false");
+        btn.setAttribute("aria-label", "Open menu");
+      }
+
+      function openMenu() {
+        document.getElementById("sidebar").classList.add("open");
+        document.getElementById("overlay").hidden = false;
+        var btn = document.getElementById("menu-btn");
+        btn.setAttribute("aria-expanded", "true");
+        btn.setAttribute("aria-label", "Close menu");
+      }
+
+      document.getElementById("menu-btn").addEventListener("click", function () {
+        if (document.getElementById("sidebar").classList.contains("open")) closeMenu();
+        else openMenu();
+      });
+      document.getElementById("overlay").addEventListener("click", closeMenu);
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") closeMenu();
+      });
+      window.addEventListener("hashchange", function () {
+        showView(currentView());
+      });
+      showView(currentView());
+    })();
+  </script>
+</body>
+</html>
