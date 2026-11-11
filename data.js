@@ -102,25 +102,25 @@ window.COURSE = {
       "url": "https://eanes.instructure.com/courses/11651/discussion_topics/7633"
     }
   ],
-  "modulesCaption": "Canvas file links need an Eanes ISD login; Google, YouTube and fair links open for anyone.",
+  "modulesCaption": "Every file opens right here, no login needed.",
   "modules": [
     {
       "name": "Meeting Slides",
       "items": [
         {
           "title": "GARSEF Meeting Slides 9/2/26",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/178995",
-          "site": "Canvas file"
+          "href": "files/garsef-meeting-slides-2026-09-02.pdf",
+          "site": "PDF"
         },
         {
           "title": "GARSEF Meeting Slides 10/7/26",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/199412",
-          "site": "Canvas file"
+          "href": "files/garsef-meeting-slides-2026-10-07.pdf",
+          "site": "PDF"
         },
         {
           "title": "GARSEF Meeting Slides 11/4/26",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214231",
-          "site": "Canvas file"
+          "href": "files/garsef-meeting-slides-2026-11-04.pdf",
+          "site": "PDF"
         }
       ]
     },
@@ -129,43 +129,43 @@ window.COURSE = {
       "items": [
         {
           "title": "JS Handbook",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214252",
-          "site": "Canvas file"
+          "href": "files/js-handbook.pdf",
+          "site": "PDF"
         },
         {
           "title": "Project Guidelines and Time Requirements",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214268",
-          "site": "Canvas file"
+          "href": "files/project-guidelines-time-requirements.pdf",
+          "site": "PDF"
         },
         {
           "title": "Category List",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214269",
-          "site": "Canvas file"
+          "href": "files/category-list.pdf",
+          "site": "PDF"
         },
         {
           "title": "Schedule",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214270",
-          "site": "Canvas file"
+          "href": "files/schedule.pdf",
+          "site": "PDF"
         },
         {
           "title": "Student Checklist and Schedule",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214271",
-          "site": "Canvas file"
+          "href": "files/student-checklist-schedule.pdf",
+          "site": "PDF"
         },
         {
           "title": "Student STEM Wizard Guide",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214272",
-          "site": "Canvas file"
+          "href": "files/student-stem-wizard-guide.pdf",
+          "site": "PDF"
         },
         {
           "title": "Ideas for Science Fair Projects at Home",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214273",
-          "site": "Canvas file"
+          "href": "files/ideas-for-projects-at-home.pdf",
+          "site": "PDF"
         },
         {
           "title": "Science Fair Quick Start Guide (Student)",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214274",
-          "site": "Canvas file"
+          "href": "files/quick-start-guide-student.pdf",
+          "site": "PDF"
         },
         {
           "title": "Virtual Project Board Template",
@@ -184,38 +184,38 @@ window.COURSE = {
       "items": [
         {
           "title": "ISEF Rulebook",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214277",
-          "site": "Canvas file"
+          "href": "files/isef-rulebook.pdf",
+          "site": "PDF"
         },
         {
           "title": "Rule Modifications for 2026-27",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214278",
-          "site": "Canvas file"
+          "href": "files/rule-modifications-2026-27.pdf",
+          "site": "PDF"
         },
         {
           "title": "SR Rules Quick Reference",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214279",
-          "site": "Canvas file"
+          "href": "files/sr-rules-quick-reference.pdf",
+          "site": "PDF"
         },
         {
           "title": "Guidelines for AI Use",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214280",
-          "site": "Canvas file"
+          "href": "files/guidelines-for-ai-use.pdf",
+          "site": "PDF"
         },
         {
           "title": "Rules Companion Guide",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214281",
-          "site": "Canvas file"
+          "href": "files/rules-companion-guide.pdf",
+          "site": "PDF"
         },
         {
           "title": "Generative AI Use Table",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214282",
-          "site": "Canvas file"
+          "href": "files/generative-ai-use-table.pdf",
+          "site": "PDF"
         },
         {
           "title": "Display Safety Rules",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214283",
-          "site": "Canvas file"
+          "href": "files/display-safety-rules.pdf",
+          "site": "PDF"
         },
         {
           "title": "ISEF Rules and Guidelines",
@@ -229,48 +229,48 @@ window.COURSE = {
       "items": [
         {
           "title": "Hazardous Chemicals Guide - Lab Chemicals",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214285",
-          "site": "Canvas file"
+          "href": "files/hazardous-chemicals-guide.pdf",
+          "site": "PDF"
         },
         {
           "title": "ISEF Forms Needing Signatures",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214286",
-          "site": "Canvas file"
+          "href": "files/isef-forms-needing-signatures.pdf",
+          "site": "PDF"
         },
         {
           "title": "SR Forms with Guiding Arrows",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214287",
-          "site": "Canvas file"
+          "href": "files/sr-forms-with-guiding-arrows.pdf",
+          "site": "PDF"
         },
         {
           "title": "SW Form Signatures",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214288",
-          "site": "Canvas file"
+          "href": "files/sw-form-signatures.pdf",
+          "site": "PDF"
         },
         {
           "title": "BSL1 Checklist",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214289",
-          "site": "Canvas file"
+          "href": "files/bsl1-checklist.pdf",
+          "site": "PDF"
         },
         {
           "title": "BSL2 Checklist",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214290",
-          "site": "Canvas file"
+          "href": "files/bsl2-checklist.pdf",
+          "site": "PDF"
         },
         {
           "title": "ISEF Forms",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214291",
-          "site": "Canvas file"
+          "href": "files/isef-forms.pdf",
+          "site": "PDF"
         },
         {
           "title": "Abstract",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214292",
-          "site": "Canvas file"
+          "href": "files/abstract.pdf",
+          "site": "PDF"
         },
         {
           "title": "Mixed Team Participation Form",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214293",
-          "site": "Canvas file"
+          "href": "files/mixed-team-participation-form.pdf",
+          "site": "PDF"
         },
         {
           "title": "Student Research Plan Template (sample, make a copy)",
@@ -289,23 +289,23 @@ window.COURSE = {
       "items": [
         {
           "title": "Day of Fair FAQs",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214297",
-          "site": "Canvas file"
+          "href": "files/day-of-fair-faqs.pdf",
+          "site": "PDF"
         },
         {
           "title": "Fair Week Expectations",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214298",
-          "site": "Canvas file"
+          "href": "files/fair-week-expectations.pdf",
+          "site": "PDF"
         },
         {
           "title": "Judge Criteria Sheet",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214299",
-          "site": "Canvas file"
+          "href": "files/judge-criteria-sheet.pdf",
+          "site": "PDF"
         },
         {
           "title": "How to Prepare for Judging",
-          "href": "https://eanes.instructure.com/courses/11651/modules/items/214300",
-          "site": "Canvas file"
+          "href": "files/how-to-prepare-for-judging.pdf",
+          "site": "PDF"
         },
         {
           "title": "GARSEF: How To Prepare For Judging (video)",

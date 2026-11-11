@@ -50,7 +50,7 @@
           Meetings
         </a>
       </nav>
-      <p class="sidebar-note">A read-only mirror for mentors and families. Course file links require an Eanes ISD login.</p>
+      <p class="sidebar-note">A read-only mirror for mentors and families. Every file and link opens without a login.</p>
     </aside>
     <div class="main-col">
       <header class="banner" aria-label="Course title">
@@ -104,7 +104,7 @@
       }
 
       function isCourseFile(item) {
-        return item.site === "Canvas file";
+        return item.site === "PDF";
       }
 
       var iconFile =
@@ -162,7 +162,7 @@
               "</summary>" +
               '<div class="ann-body">' +
                 body +
-                '<p class="original"><a href="' + esc(post.url) + '" rel="noopener noreferrer">Original post</a></p>' +
+                "" +
               "</div>" +
             "</details>"
           );
@@ -179,7 +179,7 @@
           var items = mod.items
             .map(function (item) {
               var file = isCourseFile(item);
-              var meta = file ? "Eanes login required" : item.site;
+              var meta = file ? "PDF, opens for anyone" : item.site;
               return (
                 "<li>" +
                   '<a href="' + esc(item.href) + '" rel="noopener noreferrer">' +
