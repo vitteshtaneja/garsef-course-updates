@@ -1,17 +1,33 @@
 window.COURSE = {
   "name": "GARSEF 2026-2027",
-  "lastUpdated": "Nov 11, 2026, 8:15 AM CT",
+  "lastUpdated": "Nov 11, 2026, 7:32 PM CT",
   "staff": "Elizabeth Phillips, Dhwani Nathan, Yue Wu, Aarav Dhawan, Deven Kancherla",
   "meetingRoom": "Mrs. Phillips' room, HSC room 115",
   "fairWebsite": "https://austinscience.org/",
   "nextUp": {
     "label": "Next up",
-    "title": "Files and Forms hard deadline",
-    "date": "Wed Nov 18",
-    "body": "Second milestone (Files and Forms) is a hard deadline on Wed Nov 18. The next club meeting is the same day, after school in Mrs. Phillips' room, HSC room 115."
+    "title": "REQUIRED GARSEF Research Compliance Google Form",
+    "date": "Due Sun Nov 15, 11:59 PM CT",
+    "body": "All participants must complete the GARSEF Research Compliance Google Form by Sun Nov 15, 11:59 PM CT, before requesting the Adult Sponsor Form link from Mrs. Phillips. Form: https://docs.google.com/forms/d/e/1FAIpQLSfblaJe49iBTH-4HQ_x-uAu6PasfYWtQXGIpwlzMhTP6lX_-A/viewform?usp=dialog . After that, Files and Forms is a hard deadline on Wed Nov 18, the same day as the next club meeting in HSC room 115."
   },
   "announcementsCaption": "Newest first, copied word for word from the course.",
   "announcements": [
+    {
+      "title": "REQUIRED GARSEF Google form for ALL participants",
+      "date": "Nov 11, 2026, 11:15 AM CT",
+      "author": "Dhwani Nathan",
+      "body": [
+        "Hi everyone!",
+        "Please complete the GARSEF Research Compliance Google Form (linked below) BEFORE requesting the Adult Sponsor Form link from Mrs. Phillips.",
+        "Form: https://docs.google.com/forms/d/e/1FAIpQLSfblaJe49iBTH-4HQ_x-uAu6PasfYWtQXGIpwlzMhTP6lX_-A/viewform?usp=dialog",
+        "First, we're sorry for the repetition with some of the questions and forms! This year, GARSEF has more than DOUBLE the participants of any previous year, with 47 student researchers!! We're trying to make the process more manageable for Mrs. Phillips and ensure everyone's paperwork is in order.",
+        "GARSEF follows strict ISEF guidelines, so we're being extra careful about research safety and required approvals. We'd rather be thorough now than run into issues later!",
+        "Please read each question carefully, select ALL applicable options, and choose \"I'm not sure\" if you're uncertain.",
+        "Thank you for your patience and cooperation! We're hoping to make this process as smooth and stress-free as possible for everyone.",
+        "- Dhwani :)"
+      ],
+      "url": "https://eanes.instructure.com/courses/11651/discussion_topics/12539"
+    },
     {
       "title": "Files & Forms Reminder",
       "date": "Nov 9, 2026, 10:52 AM CT",
@@ -316,6 +332,11 @@ window.COURSE = {
     }
   ],
   "assignments": [
+    {
+      "name": "REQUIRED GARSEF Google form for ALL participants",
+      "due": "Nov 15, 2026, 11:59 PM CT",
+      "points": "100"
+    },
     {
       "name": "Yearbook Picture Poll",
       "due": "Nov 5, 2026, 8:00 AM CT",

@@ -133,7 +133,7 @@
           '<div class="eyebrow">' + esc(next.label) + "</div>" +
           '<div class="next-title">' + esc(next.title) + "</div>" +
           '<div class="next-date">' + esc(next.date) + "</div>" +
-          "<p>" + esc(next.body) + "</p>" +
+          "<p>" + esc(next.body).replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" rel="noopener noreferrer">$1</a>') + "</p>" +
         "</article>" +
         '<section class="card">' +
           "<h2>Course</h2>" +
@@ -148,7 +148,7 @@
       var annHtml = course.announcements
         .map(function (post, index) {
           var body = post.body
-            .map(function (para) { return "<p>" + esc(para) + "</p>"; })
+            .map(function (para) { return "<p>" + esc(para).replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" rel="noopener noreferrer">$1</a>') + "</p>"; })
             .join("");
           return (
             "<details class=\"announcement\"" + (index === 0 ? " open" : "") + ">" +
