@@ -1,6 +1,6 @@
 window.COURSE = {
   "name": "GARSEF 2026-2027",
-  "lastUpdated": "Nov 14, 2026, 8:30 PM CT",
+  "lastUpdated": "Nov 15, 2026, 8:16 AM CT",
   "staff": "Elizabeth Phillips, Dhwani Nathan, Yue Wu, Aarav Dhawan, Deven Kancherla",
   "meetingRoom": "Mrs. Phillips' room, HSC room 115",
   "fairWebsite": "https://austinscience.org/",
