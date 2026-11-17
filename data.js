@@ -1,17 +1,31 @@
 window.COURSE = {
   "name": "GARSEF 2026-2027",
-  "lastUpdated": "Nov 16, 2026, 8:22 PM CT",
+  "lastUpdated": "Nov 17, 2026, 8:20 AM CT",
   "staff": "Elizabeth Phillips, Dhwani Nathan, Yue Wu, Aarav Dhawan, Deven Kancherla",
   "meetingRoom": "Mrs. Phillips' room, HSC room 115",
   "fairWebsite": "https://austinscience.org/",
   "nextUp": {
     "label": "Next up",
-    "title": "REQUIRED GARSEF Research Compliance Google Form",
-    "date": "Due Sun Nov 15, 11:59 PM CT",
-    "body": "All participants must complete the GARSEF Research Compliance Google Form by Sun Nov 15, 11:59 PM CT, before requesting the Adult Sponsor Form link from Mrs. Phillips. Form: https://docs.google.com/forms/d/e/1FAIpQLSfblaJe49iBTH-4HQ_x-uAu6PasfYWtQXGIpwlzMhTP6lX_-A/viewform?usp=dialog . After that, Files and Forms is a hard deadline on Wed Nov 18, the same day as the next club meeting in HSC room 115."
+    "title": "Files and Forms HARD deadline + meeting Wed Nov 18",
+    "date": "Deadline Wed Nov 18, 5 PM CT; meeting at 4:20 PM",
+    "body": "Files and Forms are due by 5 PM on Wednesday Nov 18 (a strict deadline). Meeting Wed Nov 18 at 4:20 PM in Mrs. Phillips' room, HSC room 115, the last chance to ask questions. Students should also fill out the quick form so Mrs. Phillips can sign forms faster, and mark their status on the Canvas assignment \"Are Your Files and Forms Done?\" (due Nov 18, 4:15 PM CT)."
   },
   "announcementsCaption": "Newest first, copied word for word from the course.",
   "announcements": [
+    {
+      "title": "11/18 DEADLINES",
+      "date": "Nov 16, 2026, 11:01 PM CT",
+      "author": "Yue Wu",
+      "body": [
+        "Hi GARSEF,",
+        "Hope y'all had a great Monday! Just a few reminders:",
+        "1. FILL OUT THIS FORM ASAP!!! This is to help Mrs. Phillips get through signing forms quicker, so please fill it out if you haven't yet! https://docs.google.com/forms/d/1KoGA4h6ipLkoMxkTfbxvHSwvUn-GAQ5la9I-FcqYtU8/edit?chromeless=1",
+        "2. MEETING this WEDNESDAY 11/18! If you have any last minute questions about Files and Forms, this meeting is your literal last chance to ask them. The deadline is 5 PM on Wednesday, and they are much stricter about this one than for registration! If you have any questions before then, here's me and Dhwani's emails: dn99222@eanesisd.net (Dhwani) or yw97073@eanesisd.net (me). Feel free to reach out with any questions at all, we do not bite!",
+        "3. FILES AND FORMS! Get them in as soon as you can! This saves everyone from a mamssive headache navigating things last minute, so just take the 30 minutes out of your day to get them done. Me and Dhwani are here to answer any questions, and we've also posted the GARSEF official rules in case there's anything technical you want to clear up. GET YOUR FORMS IN BEFORE WEDNESDAY'S MEETING PLEASE! I'll post an assignment later, please indicate on there whether everything's been requested for signing or submitted or not yet.",
+        "Thanks y'all, and I'll see you on Wednesday @ 4:20 in Mrs. Phillips's room in the HSC for the meeting!"
+      ],
+      "url": "https://eanes.instructure.com/courses/11651/discussion_topics/12864"
+    },
     {
       "title": "REQUIRED GARSEF Google form for ALL participants",
       "date": "Nov 11, 2026, 11:15 AM CT",
@@ -333,6 +347,11 @@ window.COURSE = {
   ],
   "assignments": [
     {
+      "name": "Are Your Files and Forms Done?",
+      "due": "Nov 18, 2026, 4:15 PM CT",
+      "points": "0"
+    },
+    {
       "name": "REQUIRED GARSEF Google form for ALL participants",
       "due": "Nov 15, 2026, 11:59 PM CT",
       "points": "100"
@@ -369,7 +388,7 @@ window.COURSE = {
     {
       "date": "Wed Nov 18",
       "status": "Next",
-      "notes": "Files and Forms hard deadline"
+      "notes": "Files and Forms hard deadline (5 PM), meeting 4:20 PM"
     },
     {
       "date": "Wed Dec 2",
