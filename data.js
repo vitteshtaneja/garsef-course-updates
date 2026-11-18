@@ -1,6 +1,6 @@
 window.COURSE = {
   "name": "GARSEF 2026-2027",
-  "lastUpdated": "Nov 17, 2026, 8:20 AM CT",
+  "lastUpdated": "Nov 17, 2026, 8:20 PM CT",
   "staff": "Elizabeth Phillips, Dhwani Nathan, Yue Wu, Aarav Dhawan, Deven Kancherla",
   "meetingRoom": "Mrs. Phillips' room, HSC room 115",
   "fairWebsite": "https://austinscience.org/",
@@ -12,6 +12,16 @@ window.COURSE = {
   },
   "announcementsCaption": "Newest first, copied word for word from the course.",
   "announcements": [
+    {
+      "title": "Fill out the Canvas Quiz",
+      "date": "Nov 17, 2026, 3:17 PM CT",
+      "author": "Yue Wu",
+      "body": [
+        "Hi y'all,",
+        "Hope everyone had a good Tuesday so far. Quick reminder to submit the canvas quiz so we can gauge where everyone's at so far. Thanks!"
+      ],
+      "url": "https://eanes.instructure.com/courses/11651/announcements"
+    },
     {
       "title": "11/18 DEADLINES",
       "date": "Nov 16, 2026, 11:01 PM CT",
