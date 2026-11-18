@@ -1,6 +1,6 @@
 window.COURSE = {
   "name": "GARSEF 2026-2027",
-  "lastUpdated": "Nov 17, 2026, 8:20 PM CT",
+  "lastUpdated": "Nov 18, 2026, 8:30 AM CT",
   "staff": "Elizabeth Phillips, Dhwani Nathan, Yue Wu, Aarav Dhawan, Deven Kancherla",
   "meetingRoom": "Mrs. Phillips' room, HSC room 115",
   "fairWebsite": "https://austinscience.org/",
@@ -12,6 +12,31 @@ window.COURSE = {
   },
   "announcementsCaption": "Newest first, copied word for word from the course.",
   "announcements": [
+    {
+      "title": "Signatures for forms",
+      "date": "Nov 17, 2026, 11:09 PM CT",
+      "author": "Dhwani Nathan",
+      "body": [
+        "Hi everyone!",
+        "We have had multiple students sending all or many of their forms to Mrs.phillips. The only form that should be sent to Mrs.Phillips is the Adults Sponsor checklist form, aka form 1. Please make sure you are sending the forms the the correct people, I posted the guiding arrows document which states all the details about the forms as well as many more resources to navigate these forms on canvas, please reference those as you go through your forms and double check to make sure you are uploading the correct documents, requesting the correct signatures, and submitting everything correctly.",
+        "Thank you!",
+        "- Dhwani"
+      ],
+      "url": "https://eanes.instructure.com/courses/11651/discussion_topics/12955"
+    },
+    {
+      "title": "GARSEF meeting and forms deadline TOMORROW",
+      "date": "Nov 17, 2026, 10:52 PM CT",
+      "author": "Dhwani Nathan",
+      "body": [
+        "Hi everyone!",
+        "Quick reminder that we have our GARSEF meeting tomorrow after school in Mrs. Phillips' room. If you have not completed your forms yet, or have questions, I HIGHLY recommend attending this meeting because we are going to spend this time going through everyone's files and forms, answering questions, and making sure everything is good to go.",
+        "Also FORMS ARE DUE TOMORROW, many of you have still not turned in your forms, if it doesn't say complete next to all your forms on STEM wizard, you still have something missing, PLEASE DOUBLE CHECK!!! If your forms are not complete, you will not be allowed to compete in GARSEF, and we want to make sure everyone has that opportunity to showcase your work! ",
+        "As always, if you have any questions or concerns, please don't hesitate to contact us!",
+        "- Dhwani :)"
+      ],
+      "url": "https://eanes.instructure.com/courses/11651/discussion_topics/12954"
+    },
     {
       "title": "Fill out the Canvas Quiz",
       "date": "Nov 17, 2026, 3:17 PM CT",
